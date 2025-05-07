@@ -1,0 +1,13 @@
+a = int(input("digit1 (0-9): "))
+b = int(input("digit2 (0-9): "))
+c = int(input("digit3 (0-9): "))
+if 0 <= a <= 9 and 0 <= b <= 9 and 0 <= c <= 9 :
+	print(a,b,c,sep="")
+	print(a,c,b,sep="")
+	print(b,a,c,sep="")
+	print(b,c,a,sep="")
+	print(c,a,b,sep="")
+	print(c,b,a,sep="")
+
+else:
+	print("Invalid")
